@@ -1,0 +1,65 @@
+/*文字コードを指定*/
+@charset "UTF-8";
+
+* {
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Meiryo UI";
+    letter-spacing: 2px;
+}
+header {
+    height:50px;
+    background-color: rgb(0,0,80,0.8);
+    color:#ffffff;
+}
+header h1{
+    font-size:32x;
+    line-height: 50px;
+    padding-left:10px;
+}
+footer{
+    height:30px;
+    line-height: 30px;
+    background-color: rgb(0,0,0,0.8);
+    color:#ffffff;
+    text-align:center;
+}
+.main{
+    margin:30px;    
+}
+.main h2{
+    margin-bottom:15px;
+}
+.main p{
+    font-family: "MyricaM M","ＭＳ ゴシック";
+    background-color: rgb(0,0,0,0.7);
+    color:#ffffff;
+    padding:10px 0px;
+    margin-bottom:10px;
+}
+label:hover{
+    background-color: #777777;    
+    transition: 0.3s;
+}
+label{
+    font-weight: bold;
+    color:#ffffff;
+    display:block;
+    margin-bottom:10px;
+    background-color: #aaaaaa;
+    border-radius: 5px;
+    text-align: center;
+    padding:10px 0;
+}
+.answer{
+    margin:30px;
+    text-align: center;
+}
+.answer-button{
+    width:42%;
+    margin:0 20px;
+    padding:10px 0;
+    font-size:14px;
+    background-color: #00ccf1;
+    border-radius: 5px;
+}
