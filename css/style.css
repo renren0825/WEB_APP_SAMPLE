@@ -28,7 +28,9 @@ footer{
     margin:30px;    
 }
 .main h2{
+    width:50%;
     margin-bottom:15px;
+    border-bottom:1px solid #111111;
 }
 .main p{
     font-family: "MyricaM M","ＭＳ ゴシック";
